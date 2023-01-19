@@ -1,0 +1,72 @@
+body{
+    background-color: wheat;
+}
+
+.alert{
+    width:500px;
+    display: flex;
+    background-color:white;
+    position: absolute;
+    left: 100px;
+    padding: 10px;
+    border-top: 2px solid red;
+    visibility: hidden;
+    transition: all 2.5 ease;
+}
+.icon{
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    position: relative;
+    border-radius: 0px;
+    text-align: center;
+    border-radius: 400px;
+    background-color: red;
+    color: red;
+}
+
+.icon i{
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    color: white;
+}
+
+.message{
+    position: relative;
+    left: 10px;
+    top: -20px;
+}
+
+.alert.online {
+    border-top: 2px solid green;
+    transition: all 0.25 ease;
+
+
+}
+
+.alert.online .icon {
+    background-color: green;
+}
+
+.message p{
+    margin-top: -10px;
+}
+.reconnect{
+    background-color: blue;
+    font-size: 1rem;
+    border: none;
+    height: 2rem;
+    width: 7rem;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.alert.online .reconnect{
+    background-color: whitesmoke;
+    pointer-events: none;
+}
+.alert.show{
+    visibility: visible;
+}
+

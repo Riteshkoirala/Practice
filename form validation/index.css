@@ -1,0 +1,21 @@
+*{
+    background-color:blueviolet;
+}
+
+.forma{
+    position: absolute;
+    text-align: center;
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+    top: 100px;
+    height: 300px;
+}
+
+form input,textarea{
+    background-color: wheat;
+    margin-top: 44px;
+}
+span{
+    color: white;
+}
